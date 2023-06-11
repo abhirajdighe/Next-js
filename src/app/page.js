@@ -58,6 +58,11 @@ export default function Home() {
       <button onClick={()=>router.push("/login")}>Go to Login Page</button>
       <br/>
       <button onClick={()=>navigate("/about")}>Go to About Page</button>
+
+          {/*Nested routing  */}
+      
+
+      
     </main>
   )
 }
